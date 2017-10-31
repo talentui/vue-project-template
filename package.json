@@ -1,5 +1,5 @@
 {
-  "name": "vue-project-template",
+  "name": "{{ name }",
   "version": "1.0.0",
   "description": "talent ui 2.0 project template base on vue js",
   "main": "index.js",
@@ -16,7 +16,7 @@
     "talentui",
     "template"
   ],
-  "author": "Guoming Li <it1011@qq.com> (http://lixinchi.com/)",
+  "author": "{{ author }}",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/talentui/vue-project-template/issues"
