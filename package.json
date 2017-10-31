@@ -1,5 +1,5 @@
 {
-  "name": "{{ name }",
+  "name": "{{ name }}",
   "version": "1.0.0",
   "description": "talent ui 2.0 project template base on vue js",
   "main": "index.js",
