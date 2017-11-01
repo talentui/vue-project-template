@@ -8,8 +8,8 @@
     "test": "jest"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/talentui/vue-project-template.git"
+    "type": "{{ repository-type }}",
+    "url": "{{ repository-url }}"
   },
   "keywords": [
     "vue",
@@ -19,9 +19,9 @@
   "author": "{{ author }}",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/talentui/vue-project-template/issues"
+    "url": "{{ bugs-url }}"
   },
-  "homepage": "https://github.com/talentui/vue-project-template#readme",
+  "homepage": "{{ homePage }}",
   "devDependencies": {
     "@talentui/tools": "^1.0.4",
     "@talentui/webpack-config": "^1.1.0",
