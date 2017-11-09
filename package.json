@@ -1,27 +1,27 @@
 {
-  "name": "{{ name }}",
-  "version": "{{ version }}",
-  "description": "{{ description }}",
+  "name":  "vue-project-template",
+  "version": "1.0.0",
+  "description": "talent ui 2.0 project template base on vue js",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
     "test": "jest"
   },
   "repository": {
-    "type": "{{ repository-type }}",
-    "url": "{{ repository-url }}"
+    "type": "git",
+    "url": "git+https://github.com/talentui/vue-project-template.git"
   },
   "keywords": [
     "vue",
     "talentui",
     "template"
   ],
-  "author": "{{ author }}",
+  "author": "Guoming Li <it1011@qq.com> (http://lixinchi.com/)",
   "license": "MIT",
   "bugs": {
-    "url": "{{ bugs-url }}"
+    "url": "https://github.com/talentui/vue-project-template/issues"
   },
-  "homepage": "{{ homePage }}",
+  "homepage": "https://github.com/talentui/vue-project-template#readme",
   "devDependencies": {
     "@talentui/tools": "^1.0.4",
     "@talentui/webpack-config": "^1.1.0",
